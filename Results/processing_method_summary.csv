@@ -1,0 +1,4 @@
+Processing_Method,Yield_kg_ha,Bean_Quality_Score,Market_Price_INR_kg,Sustainability_Score,Carbon_Footprint_tCO2e,Pest_Severity_0_10,Disease_Severity_0_10,Soil_Moisture_%
+Honey,1273.38,78.95,300.04,72.4,2.13,4.99,4.98,37.3
+Natural,1271.81,79.0,301.09,72.42,2.17,4.97,4.99,37.5
+Washed,1275.89,79.16,300.09,72.08,2.14,4.96,4.99,37.54
