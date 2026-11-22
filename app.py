@@ -8,6 +8,7 @@ import streamlit as st
 import pandas as pd
 import plotly.io as pio
 from datetime import datetime
+from dashboard.data_loader import load_data
 
 
 # ============================================================

@@ -1,4 +1,4 @@
 District,Yield_kg_ha,Bean_Quality_Score,Average_Rainfall,Average_Temperature,Sustainability_Score,Carbon_Footprint_tCO2e,Pest_Severity_0_10,Disease_Severity_0_10,Soil_Moisture_%,Market_Price_INR_kg,Overall_Score
-Chikkamagaluru,1270.5,79.13,200.23,24.0,71.91,2.13,4.99,4.99,37.37,300.02,7.0
-Hassan,1244.54,78.83,150.06,24.0,72.49,2.16,4.99,5.05,37.52,301.51,5.0
-Kodagu,1306.82,79.15,266.21,24.02,72.51,2.15,4.95,4.93,37.45,299.67,12.0
+Chikkamagaluru,1264.19,78.74,199.91,24.0,72.24,2.13,4.92,4.99,37.56,302.69,7.0
+Hassan,1248.42,79.16,151.35,23.98,73.0,2.14,4.95,5.14,37.52,301.22,8.0
+Kodagu,1315.84,78.89,267.28,24.05,72.1,2.17,4.82,4.9,37.06,302.62,9.0

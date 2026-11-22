@@ -11,16 +11,42 @@
 
 import pandas as pd
 
-# ----------------------------------------------------------
-# Load Dataset
-# ----------------------------------------------------------
 
-# If the dataset is in the same folder as this script,
-# simply specify the file name.
+# ============================================================
+# LOAD NEW DATASET
+# ============================================================
 
-file_path = r"C:\Users\Admin\Downloads\Karnataka_Coffee_Master_V3_15000.xlsx"
+DATASET_PATH = r"C:\Users\Admin\OneDrive\Desktop\Sujay Project\Finaldataset1.xlsx"
 
-df = pd.read_excel(file_path)
+@st.cache_data
+def load_new_dataset(file_path):
+    data = pd.read_excel(file_path)
+    data.columns = data.columns.astype(str).str.strip()
+    return data
+
+try:
+    df = load_new_dataset(DATASET_PATH)
+
+except FileNotFoundError:
+    st.error("Dataset not found. Please check the Excel file path.")
+    st.stop()
+
+except Exception as e:
+    st.error("Unable to load the new dataset.")
+    st.exception(e)
+    st.stop()
+
+# ============================================================
+# VALIDATE DATA
+# ============================================================
+
+if df is None or df.empty:
+    st.error("The dataset is empty.")
+    st.stop()
+
+st.sidebar.success(
+    f"Loaded {len(df):,} records successfully"
+)
 
 # ----------------------------------------------------------
 # Display First Five Rows

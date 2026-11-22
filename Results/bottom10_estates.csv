@@ -1,11 +1,11 @@
 District,Coffee_Type,Estate_Health_Score,Health_Category
 Kodagu,Robusta,8.210526315789473,Poor
-Chikkamagaluru,Arabica,8.409774436090224,Poor
-Kodagu,Arabica,9.692564745196325,Poor
 Hassan,Robusta,9.946532999164576,Poor
-Chikkamagaluru,Robusta,10.16624895572264,Poor
-Kodagu,Robusta,10.46031746031746,Poor
-Kodagu,Arabica,10.724310776942357,Poor
 Kodagu,Robusta,10.779866332497912,Poor
 Kodagu,Robusta,10.782790309106097,Poor
-Chikkamagaluru,Robusta,10.792815371762742,Poor
+Hassan,Arabica,13.665413533834586,Poor
+Kodagu,Arabica,14.195488721804509,Poor
+Kodagu,Arabica,14.911027568922307,Poor
+Hassan,Arabica,15.113199665831246,Poor
+Hassan,Robusta,15.88095238095238,Poor
+Chikkamagaluru,Robusta,16.726817042606516,Poor

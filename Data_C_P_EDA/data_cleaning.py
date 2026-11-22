@@ -10,7 +10,7 @@ import pandas as pd
 # Load Dataset
 # ----------------------------------------------------------
 
-df = pd.read_excel(r"C:\Users\Admin\Downloads\Karnataka_Coffee_Master_V3_15000.xlsx")
+df = pd.read_excel(r"C:\Users\Admin\OneDrive\Desktop\Sujay Project\Finaldataset1.xlsx")
 
 print("="*60)
 print("DATA CLEANING")
